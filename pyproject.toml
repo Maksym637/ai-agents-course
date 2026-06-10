@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+name = "ai-agents-course"
+version = "0.1.0"
+description = "AI Agents course"
+authors = ["moliinyk maks.oliynik228@gmail.com"]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+openai = "^2.41.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
