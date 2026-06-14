@@ -8,6 +8,8 @@ authors = ["moliinyk maks.oliynik228@gmail.com"]
 [tool.poetry.dependencies]
 python = ">=3.11"
 openai = "^2.41.0"
+openai-agents = "^0.17.5"
+python-dotenv = "^1.2.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
