@@ -37,9 +37,9 @@ def retrieve_top_chunks(query, collection, top_k=1):
 
     return [
         {
-            "chunk": results['documents'][0][i],  # The retrieved text chunk
-            "id": results['metadatas'][0][i]['id'],  # The original document ID
-            "distance": results['distances'][0][i]  # Similarity score (lower is more similar)
+            "chunk": results['documents'][0][i],
+            "id": results['metadatas'][0][i]['id'],
+            "distance": results['distances'][0][i]
         }
         for i in range(len(results['documents'][0]))
     ]
